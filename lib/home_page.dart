@@ -5,14 +5,15 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Material(
-        child: Center(
-          child: Container(
-              child: Text(
-            'Hey Developers',
-            style: TextStyle(fontSize: 30),
-          )),
-        ),
-      ),;
+    return Scaffold(
+      appBar: AppBar(),
+      body: Center(
+        child: Container(
+            child: const Text(
+          'Hey Developers',
+          style: TextStyle(fontSize: 30),
+        )),
+      ),
+    );
   }
 }
