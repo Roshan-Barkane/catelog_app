@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
         drawer: Drawer(),
         body: Center(
           child: Container(
-              child: const Text(
+              child: Text(
             'Hey Developers',
             style: TextStyle(fontSize: 30),
           )),
